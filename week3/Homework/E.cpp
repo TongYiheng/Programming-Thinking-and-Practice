@@ -28,7 +28,6 @@ void dfs(int x)
         }
     }
     dfs(x + 1);
-
 }
 
 int main() {

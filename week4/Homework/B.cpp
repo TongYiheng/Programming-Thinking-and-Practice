@@ -13,14 +13,14 @@ int main()
     for(int i=1;i<=n;i++)
     {
         cin>>st[i].first;
-        st[i].second.first=0;
+        st[i].second.first=0;       //A 
         st[i].second.second=i;
         t[i].first=st[i].first;
     }
     for(int i=n+1;i<=2*n;i++)
     {
         cin>>st[i].first;
-        st[i].second.first=1;
+        st[i].second.first=1;       //B
         st[i].second.second=i-n;
         t[i-n].second=st[i].first;
     }

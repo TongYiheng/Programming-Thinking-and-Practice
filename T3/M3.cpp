@@ -5,7 +5,6 @@ struct card
 {
     int number;
     int color;
-    bool operator > (const card& theCard) const {return number>theCard.number;}
     bool operator < (const card& theCard) const {return number<theCard.number;}
 }p[5];
 

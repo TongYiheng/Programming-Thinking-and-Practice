@@ -72,9 +72,7 @@ int main()
     }
 
     bfs(1);clear(n);v1=t;
-    bfs(v1);clear(n);v2=t;
-    
-    bfs(v1);
+    bfs(v1);v2=t;
     for(int i=1;i<=n;i++)
         dis1[i]=vis[i];
     clear(n);

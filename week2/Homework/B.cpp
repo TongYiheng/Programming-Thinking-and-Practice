@@ -13,8 +13,5 @@ int main()
         x[temp]++;
         cout<<x[temp]<<" ";
     }
-
-
-
     return 0;
 }
